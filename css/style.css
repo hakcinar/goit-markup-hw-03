@@ -168,7 +168,8 @@ address {
 }
 .our-portfolio-text {
   padding: 32px 16px;
-  border-bottom: 1px solid var(--cornflower);
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 .our-portfolio-text h4 {
   margin-bottom: 8px;
