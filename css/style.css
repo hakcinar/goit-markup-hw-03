@@ -57,13 +57,19 @@ img {
 .container {
   max-width: 1440px;
   margin: auto;
+  padding: 120px 156px;
 }
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container {
   padding: 24px 156px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid var(--cornflower);
+  width: 1440px;
 }
 address {
   font-style: normal;
@@ -75,6 +81,7 @@ address {
   line-height: 1.166;
   text-decoration: none;
   color: var(--navy);
+  margin-right: 76px;
 }
 .logo span {
   color: var(--iris);
@@ -87,6 +94,7 @@ address {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-right: 332px;
 }
 .navigation li a:hover {
   color: var(--ocean);
@@ -132,7 +140,7 @@ address {
   letter-spacing: 4%;
 }
 .section {
-  padding: 120px 156px;
+  width: 100%;
 }
 .our-goals {
   display: flex;
@@ -173,7 +181,12 @@ address {
 footer {
   background-color: var(--navy);
   color: var(--white);
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
   padding: 100px 156px;
+  width: 1440px;
 }
 .footer-content {
   width: 256px;
